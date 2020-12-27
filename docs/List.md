@@ -1251,7 +1251,7 @@ The new filter element can use the `useListContext()` hook to interact with the 
 
 - `filterValues`: Value of the filters based on the URI, e.g. `{"commentable":true,"q":"lorem "}`
 - `setFilters()`: Callback to set the filter values, e.g. `setFilters({"commentable":true})`
-- `displayedFilters`: Names of the filters displayed in the form, e.g. `['commentable','title']`
+- `displayedFilters`: Names of the filters displayed in the form, e.g. `{ commentable: true, title: true }`
 - `showFilter()`: Callback to display an additional filter in the form, e.g. `showFilter('views')`
 - `hideFilter()`: Callback to hide a filter in the form, e.g. `hideFilter('title')`
 
